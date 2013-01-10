@@ -8,4 +8,5 @@ specific types of files:
 
 int wlktr(const char *root, wlktr_action_t *actions);
 
-More info can be found in the wlktr header file.
+More info can be found in the wlktr header file. And an usage example can be
+found in the file example.c.
