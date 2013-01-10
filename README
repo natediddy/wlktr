@@ -1,0 +1,11 @@
+wlktr is simply a C function that walks a directory tree. As it traverses the
+directory tree, it can examine specific types of files that the user
+specified, and can also perform actions upon them.
+
+This function requires only 2 parameters: the name of the root directory to
+start in, and an array of structures that specify an action to perform on
+specific types of files:
+
+int wlktr(const char *root, wlktr_action_t *actions);
+
+More info can be found in the wlktr header file.
